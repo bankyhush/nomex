@@ -30,7 +30,7 @@ export default function LoginForm() {
 
           <div className="flex items-center gap-4 text-white">
             <span className="hidden text-md sm:inline">
-              Don't have an account?
+              Don&apos;t have an account?
             </span>
             <Link href="/auth/signup">
               <Button

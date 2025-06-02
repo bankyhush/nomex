@@ -63,7 +63,7 @@ export default function SignupPage() {
               {/* Title */}
               <div className="mb-8 text-center">
                 <h1 className="mb-2 text-2xl font-semibold text-slate-800">
-                  Let's get started
+                  Let&apos;s get started
                 </h1>
                 <p className="text-slate-600">
                   Enter your email address and password.

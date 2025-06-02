@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Eye, EyeOff, User } from "lucide-react";
+import { User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -28,7 +28,7 @@ export default function ForgotPasswordForm() {
 
           <div className="flex items-center gap-4 text-white">
             <span className="hidden text-md sm:inline">
-              Don't have an account?
+              Don&apos;t have an account?
             </span>
             <Link href="/auth/signup">
               <Button
@@ -70,7 +70,7 @@ export default function ForgotPasswordForm() {
                   Forgot password
                 </h1>
                 <p className="text-gray-700 text-md font-medium">
-                  We'll email you a link to recover your account
+                  We&apos;ll email you a link to recover your account
                 </p>
               </div>
 
